@@ -21,7 +21,7 @@ import {
   shopify,
   carrent,
   jobit,
-  tripguide,
+  ecommerce,
   threejs,
 } from "../assets";
 
@@ -197,6 +197,27 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+    name: "Product Catalog Platform",
+    description:
+      "This platform features a sophisticated product catalog designed to enhance the shopping experience. It includes detailed product pages, intelligent shopping cart management",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+       {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://github.com/kngcl/ecommerce",
+  },
   {
     name: "Job IT",
     description:
@@ -220,7 +241,7 @@ const projects = [
       }
     ],
     image: jobit,
-    source_code_link: "https://github.com/kngcl/myportfolio",
+    source_code_link: "https://github.com/kngcl/jobit",
   },
   {
     name: "Car Rent",
@@ -244,23 +265,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
 
-  {
-    name: "Currency App",
-    description:
-      "A comprehensive currency app that allows users to convert currencies from one to the other.",
-    tags: [
-      {
-        name: "React.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/kngcl/currency-react-app",
-  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
